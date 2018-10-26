@@ -7,16 +7,16 @@
 
 <script>
 export default {
-    data(){
-        return {
-            text: 'walalal233'
-        }
-    }
+	data () {
+		return {
+			text: 'walalal233'
+		}
+	}
 }
 </script>
 
 <style>
-#test{
-    color: #f00;
+#test {
+  color: #f00;
 }
 </style>
