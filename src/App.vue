@@ -1,7 +1,7 @@
 <template>
     <div id="test">
         {{text}}
-        <img src="~@/zebra.png">
+        <img src="~@/zebra.png" class="zebra">
     </div>
 </template>
 
@@ -18,5 +18,9 @@ export default {
 <style>
 #test {
   color: #f00;
+}
+.zebra{
+	max-width: 500px;
+	width: 100%;
 }
 </style>
