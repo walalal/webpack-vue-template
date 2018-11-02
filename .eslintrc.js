@@ -13,7 +13,7 @@ module.exports = {
 	extends: 'standard',
 	'rules': {
 		'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
-		'indent': [2, "tab"],
+		'indent': ["error", 2],
 		'no-tabs': 0
 	}
 }
